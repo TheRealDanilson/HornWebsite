@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<simpleviewergallery
+	
+	title="Big Red Horns"
+	galleryStyle="MODERN"
+	thumbPosition="LEFT"
+	textColor="FFFFFF"
+	frameColor="FFFFFF"
+	thumbRows="4"
+	thumbColumns="3"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"
+	frameWidth="20"
+	maxImageWidth="800"
+	maxImageHeight="800"
+	imagePath=""
+	thumbPath=""	
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""	
+>
+
+<image imageURL="images/2007_horn_section_picture.jpg" thumbURL="thumbnails/2007_horn_section_picture.jpg" linkURL="" linkTarget="" >
+	<caption>Our 2007 Section Picture.</caption>	
+</image>
+<image imageURL="images/current_and_alumni_horns_.jpg" thumbURL="thumbnails/current_and_alumni_horns_.jpg" linkURL="" linkTarget="" >
+	<caption>Homecoming!</caption>	
+</image>
+<image imageURL="images/semi_formal__018.jpg" thumbURL="thumbnails/semi_formal__018.jpg" linkURL="" linkTarget="" >
+	<caption>Spring semi-formal</caption>	
+</image>
+<image imageURL="images/section_pic_2008.jpg" thumbURL="thumbnails/section_pic_2008.jpg" linkURL="" linkTarget="" >
+	<caption>Our 2008 section picture.</caption>	
+</image>
+<image imageURL="images/section_pic_2008_funny.jpg" thumbURL="thumbnails/section_pic_2008_funny.jpg" linkURL="" linkTarget="" >
+	<caption>Our 2008 section picture... airborne! (mostly)</caption>	
+</image>
+<image imageURL="images/first_night_singing_horns.jpg" thumbURL="thumbnails/first_night_singing_horns.jpg" linkURL="" linkTarget="" >
+	<caption>Horns singing at First Night.</caption>	
+</image>
+<image imageURL="images/first_night_horns.jpg" thumbURL="thumbnails/first_night_horns.jpg" linkURL="" linkTarget="" >
+	<caption>Waiting for our pizza at First Night.</caption>	
+</image>
+<image imageURL="images/lehigh1.jpg" thumbURL="thumbnails/lehigh1.jpg" linkURL="" linkTarget="" >
+	<caption>Hanging out with the Lehigh's horns.</caption>	
+</image>
+<image imageURL="images/nonsec2.jpg" thumbURL="thumbnails/nonsec2.jpg" linkURL="" linkTarget="" >
+	<caption>Sitting on Santa's lap at Nonsec</caption>	
+</image>
+<image imageURL="images/more_fall_fun_008.jpg" thumbURL="thumbnails/more_fall_fun_008.jpg" linkURL="" linkTarget="" >
+	<caption>Nonsec</caption>	
+</image>
+<image imageURL="images/more_fall_fun_010.jpg" thumbURL="thumbnails/more_fall_fun_010.jpg" linkURL="" linkTarget="" >
+	<caption>Nonsec</caption>	
+</image>
+<image imageURL="images/more_winter_08_007.jpg" thumbURL="thumbnails/more_winter_08_007.jpg" linkURL="" linkTarget="" >
+	<caption>Silly faces?</caption>	
+</image>
+<image imageURL="images/more_winter_08_008.jpg" thumbURL="thumbnails/more_winter_08_008.jpg" linkURL="" linkTarget="" >
+	<caption>More silly faces.</caption>	
+</image>
+<image imageURL="images/horns_vs_trumpets_with_snow.jpg" thumbURL="thumbnails/horns_vs_trumpets_with_snow.jpg" linkURL="" linkTarget="" >
+	<caption>Horns vs. Trumpets, with snow!</caption>	
+</image>
+<image imageURL="images/nyc_parade.jpg" thumbURL="thumbnails/nyc_parade.jpg" linkURL="" linkTarget="" >
+	<caption>At the Sy Katz Memorial Parade in NYC.</caption>	
+</image>
+<image imageURL="images/lehigh2.jpg" thumbURL="thumbnails/lehigh2.jpg" linkURL="" linkTarget="" >
+	<caption>lehigh2.jpg</caption>	
+</image>
+<image imageURL="images/dragon_day__hockey__184.jpg" thumbURL="thumbnails/dragon_day__hockey__184.jpg" linkURL="" linkTarget="" >
+	<caption>dragon_day__hockey__184.jpg</caption>	
+</image>
+<image imageURL="images/princeton_lax_band.jpg" thumbURL="thumbnails/princeton_lax_band.jpg" linkURL="" linkTarget="" >
+	<caption>princeton_lax_band.jpg</caption>	
+</image>
+<image imageURL="images/horns_semiformal.jpg" thumbURL="thumbnails/horns_semiformal.jpg" linkURL="" linkTarget="" >
+	<caption>horns_semiformal.jpg</caption>	
+</image>
+<image imageURL="images/rslf_hockey_champs.jpg" thumbURL="thumbnails/rslf_hockey_champs.jpg" linkURL="" linkTarget="" >
+	<caption>intramural women's floor hockey champs: 4 of the 9 girls are horns!</caption>	
+</image>
+<image imageURL="images/hvstagain.jpg" thumbURL="thumbnails/hvstagain.jpg" linkURL="" linkTarget="" >
+	<caption>hvstagain.jpg</caption>	
+</image>
+<image imageURL="images/2008_horns_nonsec.jpg" thumbURL="thumbnails/2008_horns_nonsec.jpg" linkURL="" linkTarget="" >
+	<caption>2008_horns_nonsec.jpg</caption>	
+</image>
+<image imageURL="images/pbplaying.jpg" thumbURL="thumbnails/pbplaying.jpg" linkURL="" linkTarget="" >
+	<caption>pbplaying.jpg</caption>	
+</image>
+<image imageURL="images/mocktails1.jpg" thumbURL="thumbnails/mocktails1.jpg" linkURL="" linkTarget="" >
+	<caption>mocktails1.jpg</caption>	
+</image>
+<image imageURL="images/mocktails2.jpg" thumbURL="thumbnails/mocktails2.jpg" linkURL="" linkTarget="" >
+	<caption>mocktails2.jpg</caption>	
+</image>
+<image imageURL="images/hornpizza1.jpg" thumbURL="thumbnails/hornpizza1.jpg" linkURL="" linkTarget="" >
+	<caption>hornpizza1.jpg</caption>	
+</image>
+<image imageURL="images/hornpizza2.jpg" thumbURL="thumbnails/hornpizza2.jpg" linkURL="" linkTarget="" >
+	<caption>hornpizza2.jpg</caption>	
+</image>
+<image imageURL="images/hornpizza3.jpg" thumbURL="thumbnails/hornpizza3.jpg" linkURL="" linkTarget="" >
+	<caption>hornpizza3.jpg</caption>	
+</image>
+<image imageURL="images/big_red_blowout_1__2_.jpg" thumbURL="thumbnails/big_red_blowout_1__2_.jpg" linkURL="" linkTarget="" >
+	<caption>big_red_blowout_1__2_.jpg</caption>	
+</image>
+<image imageURL="images/big_red_blowout_2__2_.jpg" thumbURL="thumbnails/big_red_blowout_2__2_.jpg" linkURL="" linkTarget="" >
+	<caption>big_red_blowout_2__2_.jpg</caption>	
+</image>
+<image imageURL="images/horn_y_girls____gavin_who_ruined_it_booooo_.jpg" thumbURL="thumbnails/horn_y_girls____gavin_who_ruined_it_booooo_.jpg" linkURL="" linkTarget="" >
+	<caption>horn-y girls! ( + gavin who 'ruined' our picture, boooo)</caption>	
+</image>
+<image imageURL="images/section_pic_2009.jpg" thumbURL="thumbnails/section_pic_2009.jpg" linkURL="" linkTarget="" >
+	<caption>section_pic_2009.jpg</caption>	
+</image>
+<image imageURL="images/section_pic_2009_funny.jpg" thumbURL="thumbnails/section_pic_2009_funny.jpg" linkURL="" linkTarget="" >
+	<caption>section_pic_2009_funny.jpg</caption>	
+</image>
+<image imageURL="images/junior_fall_4_140.jpg" thumbURL="thumbnails/junior_fall_4_140.jpg" linkURL="" linkTarget="" >
+	<caption>junior_fall_4_140.jpg</caption>	
+</image>
+<image imageURL="images/thanksgiving___study_week_048.jpg" thumbURL="thumbnails/thanksgiving___study_week_048.jpg" linkURL="" linkTarget="" >
+	<caption>Horns 2009</caption>	
+</image>
+<image imageURL="images/junior_spring_4__169.jpg" thumbURL="thumbnails/junior_spring_4__169.jpg" linkURL="" linkTarget="" >
+	<caption>junior_spring_4__169.jpg</caption>	
+</image>
+<image imageURL="images/junior_spring_5__027.jpg" thumbURL="thumbnails/junior_spring_5__027.jpg" linkURL="" linkTarget="" >
+	<caption>junior_spring_5__027.jpg</caption>	
+</image>
+<image imageURL="images/junior_spring_5__030.jpg" thumbURL="thumbnails/junior_spring_5__030.jpg" linkURL="" linkTarget="" >
+	<caption>junior_spring_5__030.jpg</caption>	
+</image>
+<image imageURL="images/junior_spring_5__047.jpg" thumbURL="thumbnails/junior_spring_5__047.jpg" linkURL="" linkTarget="" >
+	<caption>junior_spring_5__047.jpg</caption>	
+</image>
+<image imageURL="images/plantations_2010.jpg" thumbURL="thumbnails/plantations_2010.jpg" linkURL="" linkTarget="" >
+	<caption>plantations_2010.jpg</caption>	
+</image>
+<image imageURL="images/girls_nonsec_2010.jpg" thumbURL="thumbnails/girls_nonsec_2010.jpg" linkURL="" linkTarget="" >
+	<caption>girls_nonsec_2010.jpg</caption>	
+</image>
+<image imageURL="images/horn_nonsec_2010.jpg" thumbURL="thumbnails/horn_nonsec_2010.jpg" linkURL="" linkTarget="" >
+	<caption>horn_nonsec_2010.jpg</caption>	
+</image>
+<image imageURL="gallery/images/Usual2010.jpg" thumbURL="gallery/thumbnails/Usual2010.jpg" linkURL="" linkTarget="" >
+	<caption>The Horns being our usual selves at a home game (2010).</caption>	
+</image>
+<image imageURL="images/cuhorns1981.jpg" thumbURL="thumbnails/cuhorns1981.jpg" linkURL="" linkTarget="" >
+	<caption>cuhorns1981.jpg</caption>	
+</image>
+</simpleviewergallery>
