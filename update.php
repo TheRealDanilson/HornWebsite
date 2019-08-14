@@ -1,6 +1,5 @@
 <?php
 
-shell_exec("update.sh 2>/dev/null >/dev/null &");
-
+shell_exec("sh update.sh 2>/dev/null >/dev/null &");
 
 ?>
