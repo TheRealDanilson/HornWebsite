@@ -7,4 +7,4 @@ cp -ar /srv/http/ /tmp/update_bak/
 rm -rf /srv/http/*
 mv /tmp/HornWebsite-master/* /srv/http/
 rmdir /tmp/HornWebsite-master
-rm master.zip
+rm /tmp/master.zip
