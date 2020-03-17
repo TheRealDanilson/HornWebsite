@@ -27,35 +27,51 @@
     </header>
     
             <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <div class="w3-half w3-small modal-content w3-center column w3-margin" style="color:#ffffff" id="modal-contents">
-            <h1 id="modal-name"></h1>
-            <img class="w3-image" id="modal-img">
-            <h2 id="modal-role"></h2>
-            <h2 id="modal-class"><h2>
-            <h2 id="modal-town"></h2>
-            <h2 id="modal-college"></h2>
-            <h2 id="modal-major"></h2>
-            <h2 id="extra"></h2>
-        </div>
-        <p id="modal-bio" class="w3-half w3-center" style="font-size: 3em; color:#ffffff"></p>
-    </div>
+    <div w3-include-html="modal.html"></div>
     
     <div class="row">
     <div class="column">
-    <div class="card w3-padding" style="background-color:#fbfbff">
+    <div class="card w3-padding" onclick='loadBio("Katie Shaw")' style="background-color:#fbfbff">
       <div class="container w3-center" id="Katie Shaw">
         <h1>Katie Shaw</h1>
         <img src="profiles/shaw.jpg" alt="Katie" style="width:30%">
-        <h2>Role: Alumna</h2>
+        <h2>2015 Co-Section Leader<br>2014 Pep Band Historian</h2>
+        <h2>Class: 2016</h2>
+        <h2>Hometown: Oxford, MA</h2>
+        <h2>College: Agriculture and Life Sciences</h2>
+        <h2>Major: Animal Science</h2>
+        <h2>Favorite field shows: Les Mis (2013) and Dragon (2015)</h2>
+        <bio>She is a life long New Englander, who loves cows, hockey, teaching, yoga, and BAND! Currently residing in Dover NH, she is living the dream teaching teens about livestock, exotic pets, and animal health and nutrition. <br> <br>The Big Red Bands and the Horns were her happy place at Cornell! She has fond memories of being the mom friend at "events" and the crazy football weather.</bio>
+      </div>
+    </div>
+  </div>
+      <div class="column">
+    <div class="card w3-padding" onclick='loadBio("Katie Shaw")' style="background-color:#fbfbff">
+      <div class="container w3-center" id="Katie Shaw">
+        <h1>Katie Shaw</h1>
+        <img src="profiles/shaw.jpg" alt="Katie" style="width:30%">
+        <h2>2015 Co-Section Leader<br>2014 Pep Band Historian</h2>
+        <h2>Class: 2016</h2>
+        <h2>Hometown: Oxford, MA</h2>
+        <h2>College: Agriculture and Life Sciences</h2>
+        <h2>Major: Animal Science</h2>
+        <h2>Favorite field shows: Les Mis (2013) and Dragon (2015)</h2>
+        <bio>She is a life long New Englander, who loves cows, hockey, teaching, yoga, and BAND! Currently residing in Dover NH, she is living the dream teaching teens about livestock, exotic pets, and animal health and nutrition. <br> <br>The Big Red Bands and the Horns were her happy place at Cornell! She has fond memories of being the mom friend at "events" and the crazy football weather.</bio>
+      </div>
+    </div>
+  </div>
+      <div class="column">
+    <div class="card w3-padding" onclick='loadBio("Katie Shaw")' style="background-color:#fbfbff">
+      <div class="container w3-center" id="Katie Shaw">
+        <h1>Katie Shaw</h1>
+        <img src="profiles/shaw.jpg" alt="Katie" style="width:30%">
+        <h2>2015 Co-Section Leader<br>2014 Pep Band Historian</h2>
         <h2>Class: 2016<h2>
         <h2>Hometown: Oxford, MA</h2>
         <h2>College: Agriculture and Life Sciences</h2>
         <h2>Major: Animal Science</h2>
         <h2>Favorite field shows: Les Mis (2013) and Dragon (2015)</h2>
-        <bio>She is a life long New Englander, who loves cows, hockey, teaching, yoga, and BAND! Currently residing in Dover NH, she is living the dream teaching teens about livestock, exotic pets, and animal health and nutrition. The Big Red Bands and the Horns were her happy place at Cornell! She has fond memories of being the mom friend at "events" and the crazy football weather.</bio>
-        <p style="font-size:2em"><button class="button" onclick='loadBio("Katie Shaw")'>About Me</button></p>
+        <bio>She is a life long New Englander, who loves cows, hockey, teaching, yoga, and BAND! Currently residing in Dover NH, she is living the dream teaching teens about livestock, exotic pets, and animal health and nutrition. <br> <br>The Big Red Bands and the Horns were her happy place at Cornell! She has fond memories of being the mom friend at "events" and the crazy football weather.</bio>
       </div>
     </div>
   </div>
@@ -102,38 +118,27 @@ function loadBio(name) {
     var person = document.getElementById(name).childNodes;
     var modal = document.getElementById("myModal");
     var modalContents = document.getElementById("modal-contents").childNodes;
-    var modalBio = document.getElementById("modal-bio")
-    
-    modal.style.display = "block";
+    var modalBio = document.getElementById("modal-bio");
     
     for (var i = 0; i < person.length; i++) {
         var info = person[i];
         var modalInfo = modalContents[i];
-        if (info.tagName == "IMG") {
+        if (typeof modalInfo !== "undefined" && info.tagName == "IMG") {
             modalInfo.src = info.src
             modalInfo.style.width = info.style.width
         } else if (info.tagName == "BIO") {
             modalBio.innerHTML = info.innerHTML
-        } else if (info.tagName == "H1" || info.tagName == "H2") {
+        } else if (typeof modalInfo !== "undefined" && (info.tagName == "H1" || info.tagName == "H2")) {
             modalInfo.innerHTML = info.innerHTML
         }
-    
     }
-    
-    
+    modal.style.display = "block";
     return;
 }
 
-var modal = document.getElementById("myModal");
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-
 includeHTML()
+
+
 </script> 
   </body>
 </html>
