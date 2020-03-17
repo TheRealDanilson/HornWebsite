@@ -43,8 +43,7 @@
             Smith</a> and <a href="mailto:mhk99@cornell.edu">Maria Komorowski</a>.
         </p>
       </div>
-      <div id="sidebar">
-        <?php require("sidebar.php");
+      <div id="sidebar"> <?php require("sidebar.php");
 		?> </div>
       <div id="footer">
         <p>Big Red Horns, 2017. Site problems? Yell at the <a href="mailto:bs599@cornell.edu">webmaster</a>.</p>
