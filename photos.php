@@ -63,7 +63,7 @@
     </header>
     
     <div class="w3-card w3-row w3-panel w3-margin w3-center" style="background-color:#fbfbff">
-            <div id="gallery" class="w3-padding-48" style="overflow-y:scroll; height: 500px; ">
+            <div id="gallery" class="w3-padding-48">
                 <?php
                     $imgdir = "images/";
                 
@@ -72,13 +72,15 @@
                 
                     foreach ($years as &$year) {
                         if ($year == '0_Undated') {
-                            echo '<h1>Undated</h1> ';
+                            echo '<h1 class="w3-xxxlarge">Undated</h1> ';
                         } else {
-                            echo '<h1>'.$year.'</h1> ';
+                            echo '<h1 class="w3-xxxlarge">'.$year.'</h1> ';
                         }
                         $images = array_diff(scandir($imgdir.$year), array('..', '.'));
                         foreach ($images as &$imgpath) {
-                            echo '<img class="w3-padding-48 w3-margin" src="'.$imgdir.$year.'/'.$imgpath.'"> ';
+                            echo '<img class="w3-padding-48 w3-margin w3-image w3-hide-small w3-hide-medium" style="width:30%;" src="'.$imgdir.$year.'/'.$imgpath.'"> ';
+                            echo '<img class="w3-padding-48 w3-margin w3-image w3-hide-small w3-hide-large" style="width:40%;" src="'.$imgdir.$year.'/'.$imgpath.'"> ';
+                            echo '<img class="w3-padding-48 w3-margin w3-image w3-hide-medium w3-hide-large" style="width:90%;" src="'.$imgdir.$year.'/'.$imgpath.'"> ';
                         }
                     }
                 ?>
@@ -87,7 +89,7 @@
     <!-- The Modal -->
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="modal-img">
+        <img class="modal-content w3-image" id="modal-img">
         <div id="caption"></div>
     </div>
    
