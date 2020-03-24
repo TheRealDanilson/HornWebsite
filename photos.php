@@ -64,6 +64,8 @@
     
     <div class="w3-card w3-row w3-panel w3-margin w3-center" style="background-color:#fbfbff">
             <div id="gallery" class="w3-padding-48">
+            <!-- This is the php code to add photos to the photo page. What does this mean for you? To add photos to this page, don't change this file. Instead, add photos to the images folder.
+                Photos are sorted by year, with an Undated folder for any photos you don't know the date of. Please try to place photos in the appropriate folder! -->
                 <?php
                     $imgdir = "images/";
                 
