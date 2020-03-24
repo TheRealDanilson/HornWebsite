@@ -55,7 +55,7 @@
     <div w3-include-html="nav.html"></div>
     <header class="bgimg w3-display-container">
       <div class="w3-display-center w3-center">
-        <h1 style="position:relative; top:.7em"> <font color="#ffffff"><span class="" style="font-size: 3em; top: 10%; text-shadow: -1px 0px
+        <h1 style="position:relative; top:.9em"> <font color="#ffffff"><span class="" style="font-size: 3em; top: 10%; text-shadow: -1px 0px
               black, 0px 1px black, 1px 0px black, 0px -1px black;
               width: 803px; height: 320px;">Photos</span></font>
         </h1>
