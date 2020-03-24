@@ -1,113 +1,136 @@
-
-
-body {
-  margin: 0;
-  padding: 0;
-  color: #000000;  
-  font-family: "Lucida Grande", Tahoma,"Trebuchet MS", Arial, Verdana, sans-serif;
-  font-size: small;
-  line-height: 1.5em;
-  background: #cccccc;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    position: relative
 }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
-h1 {
-  font-size: 250%;
-  margin-left: 0;
-  color: #000000;
-}
+.menu {display: none}
 
-h2 {
-  font-size: 125%;
-  color: #660000;
-}
-
-.box{
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-style: italic;
-  border-color: black;
-  border-width: 1px;
-  border-style: dotted;
-  background-color: #ffe6e6;
-  padding: 25px;
-  margin: 30px;
-  width: 300px;
-}
-
-#container {
-  width: 750px;
-  margin: 0 auto;
-  background: #ececec;
-}
-
-#header{
-  background: #660000;
-}
-
-#navigation{
-  background: #660000;
-  padding: 5px 10px;
-}
-
-#navigation ul{
-  margin:0;
-  padding: 0;
-  list-style: none;
-}
-
-#navigation li{
-  display: inline;
-  margin: 0;
-  padding: 6px 5px 7px 5px;
-}
-
-#navigation a {
-  color: #ffffff;
-}
-
-.selected{
-  background: #990000;
-}
-
-#maincontent {
-  background: #ffffff;
+/* Three columns side by side */
+.column {
   float: left;
-  width: 500px;
-  padding: 10px 20px 10px 20px;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 
-#maincontent img{
-  width:490px;
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
 
-#maincontent a{
-  color: #000000;
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#sidebar{
-  float: right;
-  width: 180px;
-  background: #ececec;
-  padding: 10px;
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
 }
 
-#sidebar img {
-  max-width: 150px;
-  height:auto;
-  width:auto;
-}
-
-#footer {
-  background: #660000;
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
   clear: both;
-  padding: 5px 10px;
-  font-size: 80%;
-  color: #ffffff;
+  display: table;
 }
 
-#footer a{
-  color: #ffffff;
+.title {
+  color: grey;
 }
 
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
 
+.card:hover {opacity: 0.7;}
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow-y: auto; /* Enable scroll if needed */
+  overflow-x: hidden;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,1); /* Black w/ opacity */
+  
+}
 
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+bio {display: none}
