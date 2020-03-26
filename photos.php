@@ -80,7 +80,7 @@
                         }
                         $images = array_diff(scandir($imgdir.$year), array('..', '.'));
                         foreach ($images as &$imgpath) {
-                            echo '<img class="w3-padding-48 w3-margin w3-image w3-hide-small w3-hide-medium" style="width:30%;" src="'.$imgdir.$year.'/'.$imgpath.'"> ';
+                            echo '<img class="w3-padding-48 w3-margin w3-image w3-hide-small w3-hide-medium" style="width:15%;" src="'.$imgdir.$year.'/'.$imgpath.'"> ';
                             echo '<img class="w3-padding-48 w3-margin w3-image w3-hide-small w3-hide-large" style="width:40%;" src="'.$imgdir.$year.'/'.$imgpath.'"> ';
                             echo '<img class="w3-padding-48 w3-margin w3-image w3-hide-medium w3-hide-large" style="width:90%;" src="'.$imgdir.$year.'/'.$imgpath.'"> ';
                         }
