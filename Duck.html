@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Do you want to buy a duck?</title>
+  
+  <style>
+    body{
+        height: 100%;
+        width: 100%;
+        background-image: url("duckbackground.png");
+        background-repeat: repeat;
+    }
+    #content {
+        margin: auto;
+        height: 100%;
+        width: 90%;
+    }
+    form {
+        margin: auto;
+    }
+    #output {
+        overflow:auto;
+        background-color: rgba(255,255,255,0.7);
+    }
+  </style>
+  
+</head>
+<body>
+<div id="content">
+        <input type="text" id="numpeople" name="inputbox" placeholder="How many people are there?" style="width:175px" > 
+        <input class="enterbutton" type="Submit" value="Do you want to buy a duck?">
+    <div id="output">
+    </div>
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+var n;
+var words = [];
+
+wh = $(window).height();
+$('#output').css('height',wh*0.9+"px");
+
+
+$(".enterbutton").click(function() {
+    document.getElementById("output").innerHTML = "";
+    words = [];
+    n = document.getElementById("numpeople").value;
+    if(isNaN(n) || !(Math.floor(n)==Math.ceil(n)) || n<0) {
+        words.push("Please input a whole number of people.");
+    } else {
+        if(n==1) {
+            words.push("Person 1: Do you want to buy a duck?<br>");
+            words.push("*crickets*\n");
+        } else if(n==0) {
+            words.push("Where is everybody?\n");
+        } else {
+        for(i=1;i<n;i++) {
+            words.push("Person "+i+": Do you want to buy a duck?<br>");
+            for(j=i+1;j>1;j--) {
+                words.push("Person "+j+": A what?<br>");
+            }
+            for(j=1;j<=i;j++) {
+                words.push("Person "+j+": A duck.<br>");
+            }
+            for(j=i+1;j>1;j--) {
+                words.push("Person "+j+": Does it quack?<br>");
+            }
+            for(j=1;j<=i;j++) {
+                words.push("Person "+j+": Of course it quacks, its a duck!<br>");
+            }
+        }
+        }
+    }
+    
+    var ii = 0;
+
+    var myVar = setInterval(myTimer, 200);
+    var psconsole = $('#output')
+
+    function myTimer() {
+        psconsole.append(words[ii]+"\n")
+        ii++;
+    
+        if (psconsole.length)
+            psconsole.scrollTop(psconsole[0].scrollHeight-psconsole.height());
+    
+        if (words.length - 1 < ii) {
+            clearInterval(myVar);
+        }
+    }
+});
+
+});
+</script>
+</html>
