@@ -52,18 +52,15 @@ $(".enterbutton").click(function() {
     document.getElementById("output").innerHTML = "";
     words = [];
     n = document.getElementById("numpeople").value;
-    if(isNaN(n)) {
+    if(isNaN(n) || !(Math.floor(n)==Math.ceil(n)) || n<0) {
         words.push("Please input a whole number of people.");
     } else {
         if(n==1) {
             words.push("Person 1: Do you want to buy a duck?<br>");
             words.push("*crickets*\n");
-        }
-
-        if(n==0) {
+        } else if(n==0) {
             words.push("Where is everybody?\n");
-        }
-
+        } else {
         for(i=1;i<n;i++) {
             words.push("Person "+i+": Do you want to buy a duck?<br>");
             for(j=i+1;j>1;j--) {
@@ -78,6 +75,7 @@ $(".enterbutton").click(function() {
             for(j=1;j<=i;j++) {
                 words.push("Person "+j+": Of course it quacks, its a duck!<br>");
             }
+        }
         }
     }
     
