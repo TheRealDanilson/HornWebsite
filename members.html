@@ -5,183 +5,178 @@
     <title>Members</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"
-      href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Amatic+SC">
-    <link rel="stylesheet"
-      href="styles.css">
-      
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <style>
-  
-  </style>
-  <body vlink="#551A8B" text="#000000" bgcolor="#B31B1B" alink="#EE0000"
-    link="#0000EE" style="margin-right:100px">
+  <body vlink="#551A8B" text="#000000" bgcolor="#B31B1B" alink="#EE0000" link="#0000EE" style="margin-right:100px">
     <!-- Navbar (sit on top) -->
     <div w3-include-html="nav.html"></div>
     <header class="bgimg w3-display-container">
       <div class="w3-display-center w3-center">
-        <h1 style="position:relative; top:.9em"> <font color="#ffffff"><span class="" style="font-size: 3em; top: 10%; text-shadow: -1px 0px
-              black, 0px 1px black, 1px 0px black, 0px -1px black;
-              width: 803px; height: 320px;">Members</span></font>
+        <h1 style="position:relative; top:.9em">
+          <font color="#ffffff"><span class="" style="font-size: 3em; top: 10%; text-shadow: -1px 0px
+                black, 0px 1px black, 1px 0px black, 0px -1px black;
+                width: 803px; height: 320px;">Members</span></font>
         </h1>
       </div>
     </header>
-    
-        <!-- The Modal -->
+    <!-- The Modal -->
     <div w3-include-html="modal.html"></div>
+    <!-- Any bio card should look like this exactly, with specific details about a person obviously altered. Most importantly, loadBio("daniel") and id="daniel" absolutely need to be changed with each person
+    For instance, if you were writing a bio card for Waluigi, you would do something like this:
     
-  <div class="row">
-  
-  <!-- Any bio card should look like this exactly, with specific details about a person obviously altered. Most importantly, loadBio("daniel") and id="daniel" absolutely need to be changed with each person
-  For instance, if you were writing a bio card for Waluigi, you would do something like this:
-  
-  <div class="column">
-    <div class="card w3-padding" onclick='loadBio("waluigi")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="waluigi">
-        <h1>Daniel Cardenas</h1>
-        <img src="profiles/waluigi.jpg" alt="Waluigi" style="width:100%" class="w3-image">
-        <h2>Hunk</h2>
-        <h2>Class: 2021</h2>
-        <h2>Hometown: Mushroom Kingdom?</h2>
-        <h2>College: School of Hard Waa's</h2>
-        <h2>Major: Waaology</h2>
-        <bio>Waluigi loves to waa. He is the guardian diety of the horns.</bio>
+    <div class="column">
+      <div class="card w3-padding" onclick='loadBio("waluigi")' style="background-color:#fbfbff">
+        <div class="container w3-center" id="waluigi">
+          <h1>Daniel Cardenas</h1>
+          <img src="profiles/waluigi.jpg" alt="Waluigi" style="width:100%" class="w3-image">
+          <h2>Hunk</h2>
+          <h2>Class: 2021</h2>
+          <h2>Hometown: Mushroom Kingdom?</h2>
+          <h2>College: School of Hard Waa's</h2>
+          <h2>Major: Waaology</h2>
+          <bio>Waluigi loves to waa. He is the guardian diety of the horns.</bio>
+        </div>
       </div>
     </div>
-  </div>
-    --->
+      --->
+
+    <div class="row">
+      <div class="column">
+        <div class="card w3-padding" onclick='loadBio("rucker")' style="background-color:#fbfbff">
+          <div class="container w3-center" id="rucker">
+            <h1>Carrie Rucker</h1>
+            <img src="profiles/rucker.jpg" alt="Carrie" style="width:100%" class="w3-image">
+            <h2>2019 &amp; 2020 Co-Section Leader<br>2019 Pep Band Historian<br>2018 Pep Band Chair<br>2018 Uniform Chair
+            </h2>
+            <h2>Class: ZOZI</h2>
+            <h2>Hometown: Warren, NJ</h2>
+            <h2>College: Engineering</h2>
+            <h2>Major: Operations Research and Information Engineering Engineering</h2>
+            <bio>Bios are hard so instead of being original here are some highlights from my horn bio emails for the last
+              three years:<br><br>
+
+              "I really like to crochet"<br>
+              "I ate a mealworm during bio lab" (would do this again given sufficient motivation)<br> <!-- Lmao wth -->
+              "I bought 10 NJ flags on amazon<br>
+              "I have very strong opinions on Appel vs. RPCC Sunday brunch"<br>
+              "I still don't understand how the TCAT system works" (have never taken a TCAT alone)<br>
+              "My eyebrows are so blonde that sometimes it looks like I don't have eyebrows"<br>
+              "I spill a lot of food on myself"<br><br>
+
+              Carrie "Krusty Krab I eat it up" Rucker</bio>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card w3-padding" onclick='loadBio("cardenas")' style="background-color:#fbfbff">
+          <div class="container w3-center" id="cardenas">
+            <h1>Daniel Cardenas</h1>
+            <img src="profiles/cardenas.jpg" alt="Daniel" style="width:100%" class="w3-image">
+            <h2>2020 Co-Section Leader</h2>
+            <h2>Class: 2021</h2>
+            <h2>Hometown: Little Elm, TX</h2>
+            <h2>College: Engineering</h2>
+            <h2>Major: Computer Science</h2>
+            <bio>Born in a foreign land, Daniel learned English by absorbing American TV and culture from a very young
+              age. Ask him to speak his mother tongue, and be amazed at how the sounds coming out of his mouth definitely
+              don't sound American. In 2019, Daniel became a US citizen!<br><br> Daniel's been on the course staff for CS
+              2110 for over 2 years, and he'd love to answer any of your CS questions! He was also a Student Supervisor at
+              two dining halls simultaneously, just so he could brag about it. He quit once he realized it really wasn't
+              worth it.<br><br>Finally, Daniel's main role in the section is to produce cringe. </bio>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card w3-padding" onclick='loadBio("shames")' style="background-color:#fbfbff">
+          <div class="container w3-center" id="shames">
+            <h1>Kayla Shames</h1>
+            <img src="profiles/shames.jpg" alt="Kayla" style="width:100%" class="w3-image">
+            <h2>2019 Equipment Chair</h2>
+            <h2>Class: ZOZI</h2>
+            <h2>Hometown: Upper Saddle River, NJ</h2>
+            <h2>College: Arts &amp; Sciences</h2>
+            <h2>Majors: Linguistics / Music</h2>
+            <bio>Kayla "why am i like this" Shames is in way too many musical groups and sometimes manages to fit some
+              classes in between rehearsal. They can also do calligraphy so if you ever want "yeet" written real fancy
+              somewhere they're your girl!</bio>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="row">
     
-  <div class="column">
-    <div class="card w3-padding" onclick='loadBio("rucker")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="rucker">
-        <h1>Carrie Rucker</h1>
-        <img src="profiles/rucker.jpg" alt="Carrie" style="width:100%" class="w3-image">
-        <h2>2019 &amp; 2020 Co-Section Leader<br>2019 Pep Band Historian<br>2018 Pep Band Chair<br>2018 Uniform Chair</h2>
-        <h2>Class: ZOZI</h2>
-        <h2>Hometown: Warren, NJ</h2>
-        <h2>College: Engineering</h2>
-        <h2>Major: Operations Research and Information Engineering Engineering</h2>
-        <bio>Bios are hard so instead of being original here are some highlights from my horn bio emails for the last three years:<br><br>
+      <div class="column">
+        <div class="card w3-padding" onclick='loadBio("mendoza")' style="background-color:#fbfbff">
+          <div class="container w3-center" id="mendoza">
+            <h1>Max Mendoza</h1>
+            <img src="profiles/mendoza.jpeg" alt="Max" style="width:100%" class="w3-image">
+            <h2>2019 Rank Leader</h2>
+            <h2>Class: 2022</h2>
+            <h2>Hometown: Anaheim, California</h2>
+            <h2>College: Engineering</h2>
+            <h2>Major: Mechanical Engineering</h2>
+            <h2>Still looking for a drummer for my band, hmu if you can swing sticks rhythmically</h2>
+            <bio>I like music, basketball, and taking long walks on the beach. I think I’m a stereotypical Californian,
+              bruh.</bio>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card w3-padding" onclick='loadBio("uran")' style="background-color:#fbfbff">
+          <div class="container w3-center" id="uran">
+            <h1>Della Keahna Uran</h1>
+            <img src="profiles/uran.jpeg" alt="Della" style="width:70%" class="w3-image">
+            <h2>Class: 2022</h2>
+            <h2>Hometown: Hayward, WI</h2>
+            <h2>College: CALS</h2>
+            <h2>Major: Environment and Sustainability</h2>
+            <bio>Della is a midwestern rez baby turned musician turned model turned cowgirl. A teen mom of three nieces
+              and two dogs, she is a professional multitasker. She is a former cheerleader and current archer. Do not
+              accept her challenge to a plank-off.</bio>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card w3-padding" onclick='loadBio("faber")' style="background-color:#fbfbff">
+          <div class="container w3-center" id="faber">
+            <h1>Scott Faber</h1>
+            <img src="profiles/faber.jpeg" alt="Scott" style="width:100%" class="w3-image">
+            <h2>2020 Equipment Chair</h2>
+            <h2>Class: 2023</h2>
+            <h2>Hometown: Livingston, NJ</h2>
+            <h2>College: Engineering</h2>
+            <h2>Major: Electrical and Computer Engineering</h2>
+            <bio>Scott is a French horn player, but he played trombone in the Cornell Symphony Orchestra. Known for
+              wearing a leaf in his hair at home games, Scott loves to scream really high notes -- sometimes even through
+              his horn!</bio>
+          </div>
+        </div>
+      </div>
+      
+      </div>
 
-            "I really like to crochet"<br>
-            "I ate a mealworm during bio lab" (would do this again given sufficient motivation)<br> <!-- Lmao wth -->
-            "I bought 10 NJ flags on amazon<br>
-            "I have very strong opinions on Appel vs. RPCC Sunday brunch"<br>
-            "I still don't understand how the TCAT system works" (have never taken a TCAT alone)<br>
-            "My eyebrows are so blonde that sometimes it looks like I don't have eyebrows"<br>
-            "I spill a lot of food on myself"<br><br>
-
-            Carrie "Krusty Krab I eat it up" Rucker</bio>
-      </div>
-    </div>
- </div>
-
-   <div class="column">
-    <div class="card w3-padding" onclick='loadBio("cardenas")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="cardenas">
-        <h1>Daniel Cardenas</h1>
-        <img src="profiles/cardenas.jpg" alt="Daniel" style="width:100%" class="w3-image">
-        <h2>2020 Co-Section Leader</h2>
-        <h2>Class: 2021</h2>
-        <h2>Hometown: Little Elm, TX</h2>
-        <h2>College: Engineering</h2>
-        <h2>Major: Computer Science</h2>
-        <bio>Born in a foreign land, Daniel learned English by absorbing American TV and culture from a very young age. Ask him to speak his mother tongue, and be amazed at how the sounds coming out of his mouth definitely don't sound American. In 2019, Daniel became a US citizen!<br><br> Daniel's been on the course staff for CS 2110 for over 2 years, and he'd love to answer any of your CS questions! He was also a Student Supervisor at two dining halls simultaneously, just so he could brag about it. He quit once he realized it really wasn't worth it.<br><br>Finally, Daniel's main role in the section is to produce cringe. </bio>
-      </div>
-    </div>
- </div>
- 
-     <div class="column">
-    <div class="card w3-padding" onclick='loadBio("jacob")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="jacob">
-        <h1>Emma Jacob</h1>
-        <img src="profiles/jacob.jpg" alt="Emma" style="width:100%" class="w3-image">
-        <h2>2018 &amp; 2019 Co-Section Leader<br>Spring 2019 &amp; Fall 2019 Pep Band Conductor</h2>
-        <h2>Class: 2020</h2>
-        <h2>Hometown: Midland, MI</h2>
-        <h2>College: Engineering</h2>
-        <h2>Major: Chemical Engineering</h2>
-        <bio>Emma is a senior studying chemical engineering.  On campus, she is involved in the marching band, pep band, AIChE and SWE.  Additionally she plays the bells in McGraw Tower as a chimesmaster.</bio>
-      </div>
-    </div>
- </div>
-
-
-</div>
-<div class="row">
-  <div class="column">
-    <div class="card w3-padding" onclick='loadBio("shames")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="shames">
-        <h1>Kayla Shames</h1>
-        <img src="profiles/shames.jpg" alt="Kayla" style="width:100%" class="w3-image">
-        <h2>2019 Equipment Chair</h2>
-        <h2>Class: ZOZI</h2>
-        <h2>Hometown: Upper Saddle River, NJ</h2>
-        <h2>College: Arts &amp; Sciences</h2>
-        <h2>Majors: Linguistics / Music</h2>
-        <bio>Kayla "why am i like this" Shames is in way too many musical groups and sometimes manages to fit some classes in between rehearsal. They can also do calligraphy so if you ever want "yeet" written real fancy somewhere they're your girl!</bio>
-      </div>
-    </div>
-  </div>
- 
-   
-  <div class="column">
-    <div class="card w3-padding" onclick='loadBio("mendoza")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="mendoza">
-        <h1>Max Mendoza</h1>
-        <img src="profiles/mendoza.jpeg" alt="Max" style="width:100%" class="w3-image">
-        <h2>2019 Rank Leader</h2>
-        <h2>Class: 2022</h2>
-        <h2>Hometown: Anaheim, California</h2>
-        <h2>College: Engineering</h2>
-        <h2>Major: Mechanical Engineering</h2>
-        <h2>Still looking for a drummer for my band, hmu if you can swing sticks rhythmically</h2>
-        <bio>I like music, basketball, and taking long walks on the beach. I think I’m a stereotypical Californian, bruh.</bio>
-      </div>
-    </div>
-  </div>
- 
-  <div class="column">
-    <div class="card w3-padding" onclick='loadBio("uran")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="uran">
-        <h1>Della Keahna Uran</h1>
-        <img src="profiles/uran.jpeg" alt="Della" style="width:70%" class="w3-image">
-        <h2>Class: 2022</h2>
-        <h2>Hometown: Hayward, WI</h2>
-        <h2>College: CALS</h2>
-        <h2>Major: Environment and Sustainability</h2>
-        <bio>Della is a midwestern rez baby turned musician turned model turned cowgirl. A teen mom of three nieces and two dogs, she is a professional multitasker. She is a former cheerleader and current archer. Do not accept her challenge to a plank-off.</bio>
-      </div>
-    </div>
- </div>
-</div>
-<div class="row">
-  <div class="column">
-    <div class="card w3-padding" onclick='loadBio("faber")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="faber">
-        <h1>Scott Faber</h1>
-        <img src="profiles/faber.jpeg" alt="Scott" style="width:100%" class="w3-image">
-        <h2>2020 Equipment Chair</h2>
-        <h2>Class: 2023</h2>
-        <h2>Hometown: Livingston, NJ</h2>
-        <h2>College: Engineering</h2>
-        <h2>Major: Electrical and Computer Engineering</h2>
-        <bio>Scott is a French horn player, but he played trombone in the Cornell Symphony Orchestra.  Known for wearing a leaf in his hair at home games, Scott loves to scream really high notes -- sometimes even through his horn!</bio>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card w3-padding" onclick='loadBio("herzog")' style="background-color:#fbfbff">
-      <div class="container w3-center" id="herzog">
-        <h1>Caroline Herzog</h1>
-        <img src="profiles/herzog.JPG" alt="Caroline" style="width:100%" class="w3-image">
-        <h2>Class: 2023</h2>
-        <h2>Hometown: Wakefield, Massachusetts</h2>
-        <h2>College: Engineering</h2>
-        <h2>Major: Environmental Engineering</h2>
-        <bio>Outside of playing horn, Caroline loves camping throughout New England, hanging out with her pets (especially her dove named Mouse!), and playing viola, flute, and trumpet. Fun fact: she picked up horn freshman year of high school since her band director didn't allow flutes in marching band!</bio>
+    <div class="row">
+    
+      <div class="column">
+        <div class="card w3-padding" onclick='loadBio("herzog")' style="background-color:#fbfbff">
+          <div class="container w3-center" id="herzog">
+            <h1>Caroline Herzog</h1>
+            <img src="profiles/herzog.JPG" alt="Caroline" style="width:100%" class="w3-image">
+            <h2>Class: 2023</h2>
+            <h2>Hometown: Wakefield, Massachusetts</h2>
+            <h2>College: Engineering</h2>
+            <h2>Major: Environmental Engineering</h2>
+            <bio>Outside of playing horn, Caroline loves camping throughout New England, hanging out with her pets
+              (especially her dove named Mouse!), and playing viola, flute, and trumpet. Fun fact: she picked up horn
+              freshman year of high school since her band director didn't allow flutes in marching band!</bio>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -198,80 +193,63 @@
         <bio>EEEEEEE90902139021saknkjdsanjknjk====12312@@#&*#*&^*&snsabquhhjbchwqgyuewnvsmd</bio>
       </div>
     </div>
-  </div>
-
-
-  </div>
-    
-
-</div>
-   
-
 
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
-      <p>Powered by <a
-          href="https://www.w3schools.com/w3css/default.asp"
-          title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+          class="w3-hover-text-green">w3.css</a></p>
     </footer>
-    <script>
 
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /* Make an HTTP request using the attribute value as the file name: */
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /* Remove the attribute, and call this function once more: */
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
+    <script>
+      function includeHTML() {
+        let z, i, elmnt, file, xhttp;
+        /* Loop through a collection of all HTML elements: */
+        z = document.getElementsByTagName("*");
+        for (i = 0; i < z.length; i++) {
+          elmnt = z[i];
+          /*search for elements with a certain atrribute:*/
+          file = elmnt.getAttribute("w3-include-html");
+          if (file) {
+            /* Make an HTTP request using the attribute value as the file name: */
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+              if (this.readyState == 4) {
+                if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+                if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+                /* Remove the attribute, and call this function once more: */
+                elmnt.removeAttribute("w3-include-html");
+                includeHTML();
+              }
+            }
+            xhttp.open("GET", file, true);
+            xhttp.send();
+            /* Exit the function: */
+            return;
+          }
         }
       }
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /* Exit the function: */
-      return;
-    }
-  }
-}
-
-
-function loadBio(name) {
-    var person = document.getElementById(name).childNodes;
-    var modal = document.getElementById("myModal");
-    var modalContents = document.getElementById("modal-contents").childNodes;
-    var modalBio = document.getElementById("modal-bio");
-    
-    
-    for (var i = 0; i < person.length; i++) {
-        var info = person[i];
-        var modalInfo = modalContents[i];
-        if (typeof modalInfo !== "undefined" && info.tagName == "IMG") {
+      function loadBio(name) {
+        const person = document.getElementById(name).childNodes;
+        const modal = document.getElementById("myModal");
+        const modalContents = document.getElementById("modal-contents").childNodes;
+        const modalBio = document.getElementById("modal-bio");
+        for (let i = 0; i < person.length; i++) {
+          const info = person[i];
+          const modalInfo = modalContents[i];
+          if (typeof modalInfo !== "undefined" && info.tagName == "IMG") {
             modalInfo.src = info.src
             modalInfo.style.width = info.style.width
             modalInfo.className = info.className
-        } else if (info.tagName == "BIO") {
+          } else if (info.tagName == "BIO") {
             modalBio.innerHTML = info.innerHTML
-        } else if (typeof modalInfo !== "undefined" && (info.tagName == "H1" || info.tagName == "H2")) {
+          } else if (typeof modalInfo !== "undefined" && (info.tagName == "H1" || info.tagName == "H2")) {
             modalInfo.innerHTML = info.innerHTML
+          }
         }
-    }
-    
-    modal.style.display = "block";
-    return;
-}
-
-includeHTML()
-
-</script> 
+        modal.style.display = "block";
+        return;
+      }
+      includeHTML();
+    </script>
   </body>
 </html>
